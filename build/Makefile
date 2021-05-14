@@ -8,10 +8,11 @@ CXXFLAGS = -std=c++11 -Wall
 LDFLAGS = 
 
 # Makefile settings - Can be customized.
-APPNAME = actividad1
+APPNAME = /Users/sergiogonzalez/OneDrive/GitHub/Actividad1-Herencia-CPP/app/actividad1
 EXT = .cpp
 SRCDIR = /Users/sergiogonzalez/OneDrive/GitHub/Actividad1-Herencia-CPP/src
 OBJDIR = .
+
 ############## Do not change anything from here downwards! #############
 SRC = $(wildcard $(SRCDIR)/*$(EXT))
 OBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)/%.o)

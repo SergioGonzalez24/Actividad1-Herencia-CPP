@@ -1,8 +1,13 @@
 #include<iostream>
+#include "Microondas.hpp"
 
 using namespace std;
 
-int main () {
-    cout << "Hello World" << endl;
+// Main code
+
+int main () { 
+
+    Microondas microondas1(1234,true,15.5,30);
+    microondas1.statusMicroondas();
     return 0;
 }
